@@ -87,20 +87,20 @@ fun SuperheroItem(
     Card(
         modifier = modifier
             .fillMaxWidth()
-            .padding(8.dp), // Padding inside each item
+            .padding(8.dp),
         shape = MaterialTheme.shapes.medium,
         elevation = cardElevation(defaultElevation = 2.dp)
     ) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(16.dp), // Internal padding for content
+                .padding(16.dp),
             verticalAlignment = Alignment.Top
         ) {
             Column(
                 modifier = Modifier
                     .weight(1f)
-                    .padding(end = 16.dp) // Space between text and image
+                    .padding(end = 16.dp)
                     .align(Alignment.Top)
             ) {
                 Text(
